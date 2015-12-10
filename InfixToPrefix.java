@@ -10,7 +10,7 @@ public class InfixToPrefix
 
 	public static void main(String args[])
 	{
-		String exp = "a-b/(c*d/e)";// "((a+b)*(y+z+x))";
+		String exp = "(a-b)/(c*d/e)";// "((a+b)*(y+z+x))";
 
 		// String exp = "(A+B)*C-D";
 		Stack<String> preFix = new Stack<String>();
